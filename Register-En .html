@@ -1,0 +1,215 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="endless admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, endless admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="pixelstrap">
+
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <title>Login   YourEvent </title>
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <!-- Font Awesome-->
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css">
+    <!-- ico-font-->
+    <link rel="stylesheet" type="text/css" href="assets/css/icofont.css">
+    <!-- Themify icon-->
+    <link rel="stylesheet" type="text/css" href="assets/css/themify.css">
+    <!-- Flag icon-->
+    <link rel="stylesheet" type="text/css" href="assets/css/flag-icon.css">
+    <!-- Feather icon-->
+    <link rel="stylesheet" type="text/css" href="assets/css/feather-icon.css">
+    <!-- Plugins css start-->
+    <!-- Plugins css Ends-->
+    <!-- Bootstrap css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link href="assets/css/bootstrap-rtl.css" rel="stylesheet" />
+    <!-- App css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="assets/css/custom-style.css" rel="stylesheet" />
+    <link id="color" rel="stylesheet" href="assets/css/light-1.css" media="screen">
+    <!-- Responsive css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+    <link href="assets/css/select2.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+
+</head>
+
+<body>
+    <!-- Loader starts-->
+    <div class="loader-wrapper">
+        <div class="loader bg-white">
+            <div class="whirly-loader"> </div>
+        </div>
+    </div>
+    <!-- Loader ends-->
+    <!-- page-wrapper Start-->
+    <div class="page-wrapper">
+        <div class="container-fluid p-0">
+            <!-- login page start-->
+            <div class="authentication-main">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="auth-innerright">
+                            <div class="authentication-box">
+                                
+                                <div class="card mt-4">
+                                    <div class="TopAlert">
+                                    </div>
+
+                                    <div class="text-center"><img src="assets/images/y-e-logo.png" alt="" style="width:100%"></div>
+
+
+                                    <div class="card"> 
+<div class="card-body">
+      <div class="text-center">
+        <h4> Registration </h4>
+
+    </div>
+    <div class="card-body">
+        <form action="/Account/SignUP" method="post">
+            <div class="form-group mb-3">
+
+                    <a href="/Language/SetLanguage?culture=ar-SA&amp;returnUrl=%2FAccount%2FSignUP" class="dropdown-item">
+                                <span style="font-size:20px;color:#008cae">ع </span>
+                            </a>
+                <hr />
+            </div>
+
+            <div class="form-group mb-3">
+                  <label class="col-form-label pt-0" for="DisplayName">Full Name</label>
+                <input class="form-control" type="text" data-val="true" data-val-required="Field Required" id="DisplayName" name="DisplayName" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="DisplayName" data-valmsg-replace="true"></span>
+                <span style="color:red;font-size:14px;">*</span>
+            </div>
+
+              <div class="form-group mb-3">
+                <label class="col-form-label pt-0" for="IdNumber">Id Number</label>
+                <input class="form-control" type="text" data-val="true" data-val-regex="Incorrect Id Number" data-val-regex-pattern="^\(?([1-2]{1})\)?([0-9]{9})$" data-val-required="Field Required" id="IdNumber" name="IdNumber" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="IdNumber" data-valmsg-replace="true"></span>
+                <span style="color:red;font-size:14px;">*</span>
+            </div>
+
+
+            <div class="form-group mb-3">
+                 <label class="col-form-label pt-0" for="MobileNumber">Mobile Number</label>
+                <input class="form-control" type="tel" data-val="true" data-val-regex="Incorrect Mobile Number" data-val-regex-pattern="^((05\d{8})|(01[1-9]\d{7})|(9200\d{5})|(800\d{7}))$" data-val-required="Field Required" id="MobileNumber" name="MobileNumber" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="MobileNumber" data-valmsg-replace="true"></span>
+                <span style="color:red;font-size:14px;">*</span>
+            </div>
+
+            <div class="form-group mb-3">
+                  <label class="col-form-label pt-0" for="Email">Email</label>
+                <input class="form-control" type="email" data-val="true" data-val-email="InvalidEmail" data-val-required="Field Required" id="Email" name="Email" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+                <span style="color:red;font-size:14px;">*</span>
+            </div>
+
+
+
+            <div class="form-group mb-3">
+                <label class="control-label" for="GradeId">Category</label>
+                <select class="form-control select2" style="appearance: auto;" data-val="true" data-val-required="Field Required" id="GradeId" name="GradeId"><option value="1">Visitor</option>
+<option value="2">Media</option>
+<option value="3">Racer</option>
+<option value="4">Organizer</option>
+<option value="5">Executive</option>
+</select>
+                <span style="color:red;font-size:14px;">*</span>
+            </div>
+
+
+             <div class="form-group mb-3">
+                  <label class="col-form-label pt-0" for="WorkPlace">Work Place</label>
+                <input class="form-control" type="text" data-val="true" data-val-required="Field Required" id="WorkPlace" name="WorkPlace" value="" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="WorkPlace" data-valmsg-replace="true"></span>
+                <span style="color:red;font-size:14px;">*</span>
+            </div>
+
+
+
+
+           
+          
+            <div class="form-group form-row mt-3 mb-0">
+                <button class="btn btn-primary btn-block" type="submit">Register </button>
+            </div>     
+
+        <input name="__RequestVerificationToken" type="hidden" value="CfDJ8HZqkaPy6fpFkdEIcGkBL4-8lx8i7CFfeuxEkmZlFjmTWwmnjHITi75ESNtxiAX7bn-Mx29-aH1NIIM7_rKu5OYcEtUw_0u7D9cSTLjq63wBhsFcKNujOlXnzn6Kosq_fXqWmUmBYDfMGPQ8MEkXkgc" /></form>
+    </div>
+</div>
+
+
+
+
+</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- login page end-->
+        </div>
+    </div>
+    <!-- latest jquery-->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap js-->
+    <script src="assets/js/bootstrap/popper.min.js"></script>
+    <script src="assets/js/bootstrap/bootstrap.js"></script>
+    <!-- feather icon js-->
+    <script src="assets/js/icons/feather-icon/feather.min.js"></script>
+    <script src="assets/js/icons/feather-icon/feather-icon.js"></script>
+    <!-- Sidebar jquery-->
+    <script src="assets/js/sidebar-menu.js"></script>
+    <script src="assets/js/config.js"></script>
+    <!-- Plugins JS start-->
+    <!-- Plugins JS Ends-->
+    <!-- Theme js-->
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+
+    <!-- Plugin used-->
+
+    
+<script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+    <script type="text/javascript">
+
+        $.validator.setDefaults({
+            ignore: ""
+        });
+
+        $(document).ready(function () {
+            //$(".select2").select2();
+            //$('#terms_and_conditions').click(function () {
+            //    if ($(this).is(':checked')) {
+            //        $('#Terms').val('Terms accepted');
+            //    } else {
+            //        $('#Terms').val('');
+
+            //    }
+            //});
+        });
+    </script>
+
+
+<script src="/_framework/aspnetcore-browser-refresh.js"></script></body>
+</html>
